@@ -82,7 +82,7 @@ Technologies are continually adapting to match ever-changing trends, and as this
 
 \maketitle
 
-\include{acknowledge}
+\include{0-acknowledge}
 
 \tableofcontents
 
@@ -96,14 +96,24 @@ Technologies are continually adapting to match ever-changing trends, and as this
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % individual chapters included here
-\include{introduction}
-\include{background}
-\include{completed}
-\include{future}
-\include{feedback}
+\include{1-introduction}
+\include{2-background}
+\include{3-completed}
+\include{4-future}
+\include{5-feedback}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\backmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\bibliographystyle{ieeetr}
+\bibliographystyle{acm}
+\bibliography{sample}
 
 % appendix
-
 \appendix
 \chapter{Application}
 \input{appendix/application}
@@ -117,18 +127,6 @@ Technologies are continually adapting to match ever-changing trends, and as this
 \input{appendix/post}
 \chapter{Recruitment Webpage}
 \input{appendix/webpage}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\backmatter
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-%\bibliographystyle{ieeetr}
-\bibliographystyle{acm}
-\bibliography{sample}
 
 
 \end{document}
